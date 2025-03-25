@@ -39,7 +39,7 @@ async function jouer(unNombreDePaire) {
     let compteurPairesTrouvees = 0;
 
     // Récupération des Pokémon depuis le fichier JSON
-    const response = await fetch('/data/pokemon.json');
+    const response = await fetch('./data/pokemon.json');
     const maListeDePokemons = await response.json();
     
     
